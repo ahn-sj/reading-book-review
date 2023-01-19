@@ -103,3 +103,46 @@ private void createFromRowColToSeat(Airplane airplane, int seatRow, int seatCol)
 ...
 ```
 함수는 작게 만들고 한 가지의 일만 하도록 해야 하는 것이 그만큼 중요하고 어려운 일인 것이다.
+
+<br/>
+
+## 04. 주석
+> 잘 달린 주석은 그 어떤 정보보다 유용하다. 경솔하고 근거 없는 주석은 코드를 이해하기 어렵게 만든다.
+> 우리는 코드로 의도를 표현하지 못해, 그러니까 실패를 만회하기 위해 주석을 사용한다.
+> 그러므로 주석이 필요한 상황에 처하면 곰곰이 생각하기 바란다. 상황을 역전해 코드로 의도를 표현할 방법은 없을까? 코드로 의도를 표현할 때마다 스스로를 칭찬해준다.
+> 주석을 달 때마다 자신에게 표현력이 없다는 사실을 푸념해야 마땅하다.
+
+### 주석은 나쁜 코드를 보완하지 못한다.
+> 코드에 주석을 추가하는 일반적인 이유는 코드 품질이 나쁘기 때문이다.
+
+### 코드로 의도를 표현하라.
+> 확실히 코드만으로 의도를 설명하기 어려운 경우가 존재한다. 불행히고 많은 개발자가 이를 코드는 훌륭한 수단이 아니라는 의미로 해석한다.
+> 다음 코드 두 예제를 살펴보자
+> 1: 
+> ```java
+> // 직원에게 복지 혜택을 받을 자격이 있는지 검사한다.
+> if((employee.flags & HOURLY_FLAG) && (employee.age > 65))
+> ```
+> 2: `if(employee.isEligibleForFullBenefits))`
+> 몇 초만 더 생각하면 코드로 대다수 의도를 표현할 수 있다.
+
+내 경우에도 최대한 is, can 등의 이름을 가진 메서드로 의도를 드러내는 코드를 작성하려고 노력중에 있다.
+```java
+isEnabledSeat(seat);
+...
+private static void isEnabledSeat(Seat seat) {
+    if(seat.isUnableToReserve()) {
+        throw new CustomCommonException(ErrorCode.RESERVED_AIRPLANE_SEAT);
+    }
+}
+```
+
+**TODO 주석**
+> 때로는 '앞으로 할 일'을 `//TODO` 주석으로 남겨두면 편하다.
+> TODO 주석은 프로그래머가 필요하다 여기지만 당장 구현하기 어려운 업무를 기술한다.
+> 불 필요 기능 삭제, 누군가에게 문제를 봐달라는 요청, 더 좋은 이름을 떠올려달라는 부탁, 앞으로 발생할 이벤트에 맞춰 코드를 고치라는 주의 등에 유용하다.
+TODO 주석은 가끔 봐오긴 했지만 [내 의도에 의해 작성한 건 토이 프로젝트에서 쓴 것이 처음이다.](https://github.com/ahn-sj/airplane-reservation/blob/develop/src/main/java/airplainreservation/highestway/airplane/application/AirplaneService.java)
+```java
+// TODO: Converter 를 활용한 리팩토링 대상
+createFromRowColToSeat(airplane, seatRow, seatCol);
+```
