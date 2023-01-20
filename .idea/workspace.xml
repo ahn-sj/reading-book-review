@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bbafcff-a70d-403e-9c1b-3bd8ad8cc8c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clean-code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/clean-code/README.md" afterDir="false" />
     </list>
@@ -148,6 +150,7 @@
       <workItem from="1672738956861" duration="2399000" />
       <workItem from="1672821965649" duration="2493000" />
       <workItem from="1674217664791" duration="1196000" />
+      <workItem from="1674218870531" duration="1021000" />
     </task>
     <servers />
   </component>

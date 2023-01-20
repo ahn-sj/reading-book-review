@@ -152,7 +152,11 @@ private void createFromRowColToSeat(Airplane airplane, int seatRow, int seatCol)
 > 다음은 1개(단항)고,<br/>
 > 다음은 2개(이항)다.<br/>
 > 3개(삼항)는 가능한 피하는 편이 좋다.
-
+=======
+> Switch문
+> switch문은 작게 만들기 어렵다. case 분기가 단 두 개인 swich 문도 내 취향에는 너무 길며, 단일 블록이나 함수를 선호한다.<br/>
+> 또한, '한 가지' 작업만 하는 switch문도 만들기 어렵다. 본질적으로 swtich문은 N가지를 처리한다. <br/>
+> 불행하게도 switch문을 완전히 피할 방법은 없지만 각 switch문을 저차원 클래스에 숨기고 절대로 반복하지 않는 방법은 있다. 물론 다형성을 이용한다. 
 
 
 <br/>
