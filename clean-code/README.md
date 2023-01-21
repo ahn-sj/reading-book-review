@@ -147,16 +147,57 @@ private void createFromRowColToSeat(Airplane airplane, int seatRow, int seatCol)
 
 <br/>
 
-### 함수 이름
+### 함수 인수
 > 함수에서 이상적인 이수 개수는 0개(무항)이다.<br/>
 > 다음은 1개(단항)고,<br/>
 > 다음은 2개(이항)다.<br/>
 > 3개(삼항)는 가능한 피하는 편이 좋다.
-=======
-> Switch문
-> switch문은 작게 만들기 어렵다. case 분기가 단 두 개인 swich 문도 내 취향에는 너무 길며, 단일 블록이나 함수를 선호한다.<br/>
-> 또한, '한 가지' 작업만 하는 switch문도 만들기 어렵다. 본질적으로 swtich문은 N가지를 처리한다. <br/>
-> 불행하게도 switch문을 완전히 피할 방법은 없지만 각 switch문을 저차원 클래스에 숨기고 절대로 반복하지 않는 방법은 있다. 물론 다형성을 이용한다. 
+
+> **많이 쓰는 단항 형식**<br/>
+> 함수에 인수 1개를 넘기는 이유로 가장 흔한 경우는 두 가지다.<br/>
+> 하나는 인수에 질문을 던지는 경우다.<br/>
+> ex. boolean firstExists("MyFile")<br/>
+> 
+> 다른 하나는 인수를 뭔가로 변환해 결과를 반환하는 경우다.<br/>
+> ex. InputStream fileOpen("MyFile")
+
+> **동사와 키워드**<br/>
+> 함수의 의도나 인수의 순서와 의도를 제대로 표현하려면 좋은 함수 이름이 필수다.<br/>
+> 단항 함수는 함수와 인수가 동사/명사 쌍을 이뤄야 한다.<br/>
+> 예를 들어,write(name)은 누구나 곧바로 이해한다. 좀 더 나은 이름은 writeField(name)이다.<br/>
+> 그러면 이름이 필드라는 사실이 분명히 드러난다.<br/>
+> 
+> 마지막 예제는 함수 이름에 키워드를 추가하는 형식이다.<br/>
+> 즉, 함수 이름에 인수 이름을 넣는다.<br/>
+> 예를 들어, assertEquals보다 assertExpectedEqualsActual(expected, actual)이 더 좋다. 그러면 인수 순서를 기억할 필요가 없어진다.
+
+### 명령과 조회를 분리하라!
+> 함수는 뭔가를 수행하거나 뭔가에 답하거나 둘 중 하나만 해야 한다. 둘 다 하면 안된다.<br/>
+> 객체 상태를 변경하거나 아니면 객체 정보를 반환하거나 둘 중 하나다.<br/>
+> ```java
+> public boolean set(String attribute, String value);
+> ...
+> if(set("username", "unclebob"))...
+> ```
+> 위 코드와 같이 괴상한 코드가 나온다.
+> 
+> 독자 입장에서 코드를 읽어보자. 무슨 뜻일까? <br/>
+> "username"이 "unclebob"으로 설정되어 있는지 확인하는 코드인가?<br/>
+> 아니면 "username"을 "unclebob"으로 설정하는 코드인가?<br/>
+> 
+> 함수를 호출하는 코드만 봐서는 의미가 모호하다.<br/>
+> 이와 같은 문제의 진짜 해결책은 명령과 조회를 분리해 혼란을 애초에 뿌리뽑는 방법이다.
+> ```java
+> // Best Practice
+> if (attributeExists("username")) {
+>     setAttribute("username", "unclebob");
+>     ...
+> } 
+> ```
+
+```
+이항 함수, 가변 인수
+```
 
 
 <br/>
