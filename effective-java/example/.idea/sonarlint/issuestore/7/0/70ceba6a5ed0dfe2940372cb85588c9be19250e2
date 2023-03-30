@@ -1,0 +1,16 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(Àœşÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(×ìéşûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¡û®
+Z
+java:S3358"DExtract this nested ternary operation into an independent statement.(’åñÑ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ú¸ü©şÿÿÿÿ
+7
+java:S2129"!Remove this "Integer" constructor(Ê„‘©
+E
+java:S1874"/Remove this use of "Integer"; it is deprecated.(Ê„‘©
+7
+java:S2129"!Remove this "Integer" constructor(Ê„‘©
+E
+java:S1874"/Remove this use of "Integer"; it is deprecated.(Ê„‘©
