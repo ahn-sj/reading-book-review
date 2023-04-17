@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9bbafcff-a70d-403e-9c1b-3bd8ad8cc8c0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/git/callbus-community",
+    "last_opened_file_path": "D:/project/intellij/mvc2-example",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -158,6 +159,10 @@
       <workItem from="1676272088315" duration="3678000" />
       <workItem from="1676293917707" duration="482000" />
       <workItem from="1676295745595" duration="55000" />
+      <workItem from="1677827108469" duration="2386000" />
+      <workItem from="1677841329481" duration="14000" />
+      <workItem from="1678145446238" duration="18000" />
+      <workItem from="1678146122086" duration="629000" />
     </task>
     <servers />
   </component>
