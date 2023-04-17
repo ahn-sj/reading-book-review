@@ -150,3 +150,7 @@ class AnimalCryingUtils {
 불필요한 객체의 생성을 막아주기 위함이다.<br/>
 앞서 살펴본 `AnimalCryingUtils`, `java.lang.Math`, `java.util.Arrays`의 클래스는 해당 클래스의 인스턴스 생성없이도 클래스에 정의된 메서드를 사용 가능하다.<br/>
 따라서, 해당 클래스의 인스턴스 생성이 무의미하다.
+
+- [언제 static 함수 모음 Class를 만들어야 할까?](http://kwon37xi.egloos.com/4844149)
+- [final 클래스 질문(이펙티브 자바 item 4 관련)](https://okky.kr/questions/722887)
+- [참고](https://github.com/woowacourse-study/2022-effective-java/blob/main/02%EC%9E%A5/%EC%95%84%EC%9D%B4%ED%85%9C_04/%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%ED%99%94%EB%A5%BC%20%EB%A7%89%EA%B8%B0%20%EC%9C%84%ED%95%B4%20private%20%EC%83%9D%EC%84%B1%EC%9E%90%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
