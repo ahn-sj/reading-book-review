@@ -1,4 +1,4 @@
-package ej.access2;
+package ej.item02;
 
 import java.math.BigInteger;
 import java.util.Random;

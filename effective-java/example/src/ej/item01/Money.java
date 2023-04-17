@@ -1,4 +1,4 @@
-package ej.access1;
+package ej.item01;
 
 public class Money {
     private final int value;
