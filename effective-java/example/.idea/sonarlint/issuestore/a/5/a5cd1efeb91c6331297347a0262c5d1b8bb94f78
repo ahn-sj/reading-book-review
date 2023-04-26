@@ -1,6 +1,0 @@
-
-S	java:S106	"9Replace this use of System.out or System.err by a logger.(Ö‹Õ˜ùÿÿÿÿ
-]
-java:S2133"GRemove this object instantiation and use "BigBigInteger.class" instead.(‰ü»İ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ş»Ş
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ¹ªÁ8İøşúí0
