@@ -25,3 +25,9 @@ G
 src/ej/item16/Time.java,4\d\4de2e0009f6e1a29166fdebebec3a98b952a9481
 T
 $src/ej/item04/AnimalCryingUtils.java,c\e\cea55bb668e23c616d59c8cec48d5396a9a01f41
+T
+$src/ej/item04/FinalClassExample.java,3\d\3d816972182584e2e6cecbc548ea2d94d417214d
+H
+src/ej/item01/Money.java,d\b\dbf749b09319829afb60b7c89dbad285d5bbbe9b
+Q
+!src/ej/item01/FavoriteAnimal.java,d\a\dab76e0ee9374e05f63e6aaaf37ba928fa72a672
