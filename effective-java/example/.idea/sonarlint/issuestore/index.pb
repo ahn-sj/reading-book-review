@@ -31,3 +31,11 @@ H
 src/ej/item01/Money.java,d\b\dbf749b09319829afb60b7c89dbad285d5bbbe9b
 Q
 !src/ej/item01/FavoriteAnimal.java,d\a\dab76e0ee9374e05f63e6aaaf37ba928fa72a672
+S
+#test/ej/item07/SimpleStackTest.java,0\7\07fc7e5af1054ebbbee1b177438e2f5ae556822d
+;
+example.iml,c\1\c185cd7617bf2f486e3813403ae559929d682968
+I
+src/ej/item03/Market.java,9\a\9a30350ca38d0161a16d86e74bb9f913175ad069
+N
+src/ej/item07/SimpleStack.java,a\9\a9f01abc55636bd4e6d8ca6ea296377fefdcf291
