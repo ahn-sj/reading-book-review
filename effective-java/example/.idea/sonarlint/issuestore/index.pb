@@ -39,3 +39,5 @@ I
 src/ej/item03/Market.java,9\a\9a30350ca38d0161a16d86e74bb9f913175ad069
 N
 src/ej/item07/SimpleStack.java,a\9\a9f01abc55636bd4e6d8ca6ea296377fefdcf291
+U
+%src/ej/item24/NestedClassExample.java,0\f\0f68b12880bbf491f9e8863a590aa592884352e5

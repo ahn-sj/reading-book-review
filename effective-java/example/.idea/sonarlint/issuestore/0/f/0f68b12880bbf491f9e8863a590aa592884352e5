@@ -1,0 +1,15 @@
+
+_
+java:S1854"CRemove this useless assignment to local variable "nonStaticInner2".(ĞĞ”s8Ü±©Ñÿ0
+X
+java:S1854"CRemove this useless assignment to local variable "nonStaticInner1".(„¸™
+P
+java:S1481"4Remove this unused "nonStaticInner1" local variable.(„¸™8Ş±©Ñÿ0
+P
+java:S1481"4Remove this unused "nonStaticInner2" local variable.(ĞĞ”s8Ş±©Ñÿ0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÕì 
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(áêœ¦
+>
+java:S1068"(Remove this unused "nsiv" private field.(óÎÕÛ
+=
+java:S1068 "'Remove this unused "siv" private field.(©Úøã
