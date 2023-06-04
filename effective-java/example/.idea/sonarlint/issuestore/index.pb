@@ -41,3 +41,13 @@ N
 src/ej/item07/SimpleStack.java,a\9\a9f01abc55636bd4e6d8ca6ea296377fefdcf291
 U
 %src/ej/item24/NestedClassExample.java,0\f\0f68b12880bbf491f9e8863a590aa592884352e5
+Z
+*src/ej/item24/NestedLocalClassExample.java,3\b\3bfb3c761b0394a9cd54e4aaa8eb609c29145f3e
+L
+src/ej/item23/FigureOld.java,2\4\2477c9b5a3737698bf338d084293c7d092aff86d
+L
+src/ej/item23/FigureNew.java,9\2\925b5ee39d590518a8835c19511447129129210e
+L
+src/ej/item23/SquareTag.java,a\2\a29eecf126f8c0ef9ff0fc8278def29bba1b9002
+T
+$src/ej/item24/CalculatorExample.java,3\7\370c9a2f02fb50f367ee4fd921ef304acdf85738

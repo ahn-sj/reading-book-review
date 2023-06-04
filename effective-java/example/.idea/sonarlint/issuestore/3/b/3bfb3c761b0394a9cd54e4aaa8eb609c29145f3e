@@ -1,0 +1,5 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ô«ı·ûÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Äƒçüÿÿÿÿ8¾Òÿ0
+f
+java:S2133"DRemove this object instantiation and use "LocalClass.class" instead.(ùËÒÓûÿÿÿÿ8¿Òÿ0
