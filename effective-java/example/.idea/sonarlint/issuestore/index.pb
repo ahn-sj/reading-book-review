@@ -51,3 +51,7 @@ L
 src/ej/item23/SquareTag.java,a\2\a29eecf126f8c0ef9ff0fc8278def29bba1b9002
 T
 $src/ej/item24/CalculatorExample.java,3\7\370c9a2f02fb50f367ee4fd921ef304acdf85738
+R
+"src/ej/item23/SquareHierarchy.java,e\b\eb56c799e07671b8b742320b6feebe901021ed94
+H
+src/ej/item38/Fruit.java,5\a\5a42edc29d75c8fbbc21b7dbe9ecc15a1e716c6e
