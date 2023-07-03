@@ -55,3 +55,9 @@ R
 "src/ej/item23/SquareHierarchy.java,e\b\eb56c799e07671b8b742320b6feebe901021ed94
 H
 src/ej/item38/Fruit.java,5\a\5a42edc29d75c8fbbc21b7dbe9ecc15a1e716c6e
+L
+src/ej/item38/Operation.java,8\0\80ab9b999a073af70f8f0dc545713359c4fcd5ba
+Q
+!src/ej/item38/BasicOperation.java,b\b\bb9fd2deb3d08e24d55b655885a14b797e483f3a
+T
+$src/ej/item38/ExtendedOperation.java,b\b\bb9b587f3ce9f22ffa183ae5f9547baa3dfcbe10
