@@ -61,3 +61,9 @@ Q
 !src/ej/item38/BasicOperation.java,b\b\bb9fd2deb3d08e24d55b655885a14b797e483f3a
 T
 $src/ej/item38/ExtendedOperation.java,b\b\bb9b587f3ce9f22ffa183ae5f9547baa3dfcbe10
+X
+(src/ej/item38/ExtendedOperationMain.java,3\6\360ba06d3c130dd2ff7d975f38ab27a52beeb9ab
+O
+src/ej/item38/WildCardMain.java,a\9\a99ea99579bdd55810390c23bb8342f9a9f89249
+O
+src/ej/item05/SpellChecker.java,3\4\342057273141e8da008196e677fad72d1cf71ce1

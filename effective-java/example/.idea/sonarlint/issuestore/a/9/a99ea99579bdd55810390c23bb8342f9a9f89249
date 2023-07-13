@@ -1,0 +1,7 @@
+
+W	java:S125"<This block of commented-out lines of code should be removed.(Ã¿ıi8şûƒ´ˆ1
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÁÎãµüÿÿÿÿ
+K
+java:S1128".Remove this unused import 'java.util.EnumMap'.(ÅıìĞ8‚üƒ´ˆ1
+P
+java:S1128".Remove this unused import 'java.util.EnumSet'.(ÍäÚ“úÿÿÿÿ8‚üƒ´ˆ1

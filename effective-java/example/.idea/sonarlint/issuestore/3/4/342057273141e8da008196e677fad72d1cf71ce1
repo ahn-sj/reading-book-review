@@ -1,0 +1,12 @@
+
+A
+java:S1172
+"+Remove this unused method parameter "word".(ˆ£˜É
+V	java:S125"<This block of commented-out lines of code should be removed.(ÿ¸Ú²øÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(Åëû¶ùÿÿÿÿ8ÃáÉº‹1
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(êáÌµúÿÿÿÿ
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÄáÉº‹1
+I
+java:S1068".Remove this unused "dictionary" private field.(µÏÎøÿÿÿÿ
