@@ -67,3 +67,15 @@ O
 src/ej/item38/WildCardMain.java,a\9\a99ea99579bdd55810390c23bb8342f9a9f89249
 O
 src/ej/item05/SpellChecker.java,3\4\342057273141e8da008196e677fad72d1cf71ce1
+X
+(src/ej/item05/SpellCheckerSingleton.java,c\6\c62583dfaef45dba6323cfc461bc8e63bec805fb
+Q
+!src/ej/item05/SpellCheckerDI.java,5\b\5bfa892f05ab9bfc22d7c3b01e8db2363c29ccf8
+J
+src/ej/item06/Caching.java,1\9\190620c930cb16dfdbaf75be34143866d3835725
+M
+src/ej/item06/BoxingType.java,b\2\b2d5ac93d3a156ba56abcb00c83f23120920aa0b
+R
+"src/ej/item38/LambdaOperation.java,2\6\2697c9c8b6eab6ceffcfe23e2b14916351547023
+T
+$src/ej/item22/PhysicalConstants.java,5\d\5d65dccf11cead6289fdccf1d9808399c5f4a761
