@@ -5,13 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bbafcff-a70d-403e-9c1b-3bd8ad8cc8c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/object/01_객체,설계/002-016.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/01_객체,설계/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/src/main/java/com/sample/object/ticket/Audience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/src/main/java/com/sample/object/ticket/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/src/main/java/com/sample/object/ticket/Invitation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/src/main/java/com/sample/object/ticket/Theater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/src/main/java/com/sample/object/ticket/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/src/main/java/com/sample/object/ticket/TicketOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/src/main/java/com/sample/object/ticket/TicketSeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object/object/src/test/java/com/sample/object/ObjectApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/project/intellij/mvc2-example",
+    "last_opened_file_path": "C:/git/reading-book-review",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +68,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\reading-book-review\object" />
+      <recent name="C:\git\reading-book-review\object\object" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="reading-book-review" />
@@ -163,6 +196,7 @@
       <workItem from="1677841329481" duration="14000" />
       <workItem from="1678145446238" duration="18000" />
       <workItem from="1678146122086" duration="629000" />
+      <workItem from="1690857327652" duration="3318000" />
     </task>
     <servers />
   </component>
