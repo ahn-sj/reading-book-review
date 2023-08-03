@@ -8,7 +8,14 @@ public class Audience { // 관람객
         this.bag = bag;
     }
 
-    public Bag getBag() {
-        return bag;
+    public Long buy(Ticket ticket) {
+        if(bag.isInvited()) { // 초대장을 받았을 경우 금액 차감 없이 티켓 획득
+            bag.addTicket(ticket);
+            return 0L;
+        } else {              // 초대장을 받지 않았을 경우 금액 차감 후 티켓 획득
+            bag.addTicket(ticket);
+            bag.minusAmount(ticket.getFee());
+            return ticket.getFee();
+        }
     }
 }
