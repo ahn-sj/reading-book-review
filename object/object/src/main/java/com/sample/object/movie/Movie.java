@@ -8,18 +8,11 @@ public class Movie {
     private String title;
     private Duration runningTime;
     private Money fee;
-    private List<DiscountPolicyImpl> discountConditions = new ArrayList<>();
+    private List<DiscountCondition> discountConditions = new ArrayList<>();
 
     private MovieType movieType;
     private Money discountAmount;
     private double discountPercent;
-
-    public Movie(final String title, final Duration runningTime, final Money fee, final DiscountPolicyImpl discountPolicy) {
-        this.title = title;
-        this.runningTime = runningTime;
-        this.fee = fee;
-        this.discountPolicy = discountPolicy;
-    }
 
     public Money getFee() {
         return fee;

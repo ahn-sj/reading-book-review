@@ -32,4 +32,12 @@ public class Screening {
     private Money calculateFee(final int audienceCount) { // Screening -> Movie: 가격을 계산하라.
         return movie.calculateMovieFee(this).times(audienceCount);
     }
+
+    public LocalDateTime getWhenScreened() {
+        return whenScreened;
+    }
+
+    public int getSequence() {
+        return sequence;
+    }
 }
