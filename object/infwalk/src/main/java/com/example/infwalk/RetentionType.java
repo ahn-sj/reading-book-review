@@ -1,5 +1,5 @@
 package com.example.infwalk;
 
-public enum PurchaseType {
+public enum RetentionType {
     INFINITE, FINITE;
 }
