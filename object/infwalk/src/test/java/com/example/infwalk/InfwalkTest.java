@@ -10,6 +10,16 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class InfwalkTest {
 
+    private static final int CUSTOMER_ID = 1;
+    private static final String CUSTOMER_NAME = "jay";
+    private static final int HAVE_MONEY_PRICE = 100_000;
+
+    private static final int WALKER_ID = 111;
+    private static final String WALKER_NAME = "PAPI";
+
+    private static final String LECTURE_NAME = "오브젝트의 사실과 오해";
+    private static final RetentionType RETENTION_TYPE = RetentionType.INFINITE;
+
     @Test
     void 강의를_구매한다_일치하지_않는_쿠폰() {
         // given
